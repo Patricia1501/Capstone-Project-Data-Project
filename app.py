@@ -10,7 +10,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\Patricia\New Capstone Project\Car_Details.csv")
+df = pd.read_csv("Car_Details.csv")
 
 X = df.drop('selling_price', axis=1)
 y = df['selling_price']
